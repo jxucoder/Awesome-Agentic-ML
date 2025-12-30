@@ -43,6 +43,7 @@ Agentic ML refers to autonomous AI systems that can plan, execute, and iterate o
 | [AIDE](https://github.com/WecoAI/aideml) | AI-powered data science agent using tree search for solution exploration. | ![GitHub stars](https://img.shields.io/github/stars/WecoAI/aideml?style=flat-square) |
 | [AIRA-dojo](https://github.com/facebookresearch/aira-dojo) | Meta's AI research agents using search policies (Greedy, MCTS, Evolutionary). | ![GitHub stars](https://img.shields.io/github/stars/facebookresearch/aira-dojo?style=flat-square) |
 | [AutoGluon Assistant](https://github.com/autogluon/autogluon-assistant) | Multi-agent system for end-to-end multimodal ML automation. Also known as MLZero. | ![GitHub stars](https://img.shields.io/github/stars/autogluon/autogluon-assistant?style=flat-square) |
+| [AutoMind](https://github.com/zjunlp/AutoMind) | Adaptive agent with expert knowledge base from 455 Kaggle competitions and tree search. By ZJU NLP. | ![GitHub stars](https://img.shields.io/github/stars/zjunlp/AutoMind?style=flat-square) |
 | [AutoML-Agent](https://github.com/DeepAuto-AI/automl-agent) | Multi-Agent LLM Framework for Full-Pipeline AutoML. | ![GitHub stars](https://img.shields.io/github/stars/DeepAuto-AI/automl-agent?style=flat-square) |
 | [FM Agent](https://github.com/baidubce/FM-Agent) | Baidu's foundation model agent for ML engineering tasks. | ![GitHub stars](https://img.shields.io/github/stars/baidubce/FM-Agent?style=flat-square) |
 | [InternAgent](https://github.com/Alpha-Innovator/InternAgent) | ML engineering agent with DeepSeek-R1 integration. | ![GitHub stars](https://img.shields.io/github/stars/Alpha-Innovator/InternAgent?style=flat-square) |
@@ -74,6 +75,9 @@ Agentic ML refers to autonomous AI systems that can plan, execute, and iterate o
 - **MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research** (2025) - [Paper](https://arxiv.org/abs/2505.19955)  
   Benchmark with 201 research tasks from NeurIPS, ICLR, and ICML. Includes MLR-Judge for automated evaluation.
 
+- **DataSciBench: An LLM Agent Benchmark for Data Science** (2025) - [Paper](https://arxiv.org/abs/2502.13897) | [Code](https://github.com/THUDM/DataSciBench)  
+  Comprehensive benchmark with Task-Function-Code (TFC) framework for rigorous evaluation of LLMs on data science tasks.
+
 ### Multi-Agent Systems
 
 *Frameworks using multiple specialized agents for end-to-end ML pipelines.*
@@ -97,8 +101,8 @@ Agentic ML refers to autonomous AI systems that can plan, execute, and iterate o
 - **AI Research Agents for Machine Learning** (2025) - [Paper](https://arxiv.org/abs/2507.02554) | [Code](https://github.com/facebookresearch/aira-dojo)  
   Formalizes AI research agents as search policies with operators. Compares Greedy, MCTS, and Evolutionary strategies.
 
-- **AutoMind: Adaptive Knowledgeable Agent for Automated Data Science** (2025) - [Paper](https://arxiv.org/abs/2506.10974)  
-  Features curated expert knowledge base, agentic knowledgeable tree search, and self-adaptive coding strategy.
+- **AutoMind: Adaptive Knowledgeable Agent for Automated Data Science** (2025) - [Paper](https://arxiv.org/abs/2506.10974) | [Code](https://github.com/zjunlp/AutoMind)  
+  Features curated expert knowledge base from 455 Kaggle competitions, agentic knowledgeable tree search, and self-adaptive coding strategy.
 
 - **I-MCTS: Enhancing Agentic AutoML via Introspective Monte Carlo Tree Search** (2025) - [Paper](https://arxiv.org/abs/2502.14693) | [Code](https://github.com/jokieleung/I-MCTS)  
   Introspective node expansion with hybrid LLM-estimated and actual performance rewards.
@@ -122,6 +126,9 @@ Agentic ML refers to autonomous AI systems that can plan, execute, and iterate o
 - **AgenticSciML: Collaborative Multi-Agent Systems for Emergent Discovery in Scientific ML** (2025) - [Paper](https://arxiv.org/abs/2511.07262)  
   Specialized agents propose, critique, and refine SciML solutions.
 
+- **AI-Driven Automation Can Become the Foundation of Next-Era Science of Science Research** (NeurIPS 2025 Position) - [Paper](https://openreview.net/forum?id=u0FB996GIH)  
+  Position paper on AI automation for scientific discovery with multi-agent systems to simulate research societies.
+
 - **The AI Cosmologist: Agentic System for Automated Data Analysis** (2025) - [Paper](https://arxiv.org/abs/2504.03424)  
   Automates cosmological data analysis from idea generation to research dissemination.
 
@@ -142,6 +149,9 @@ Agentic ML refers to autonomous AI systems that can plan, execute, and iterate o
 - **TabPFN: A Transformer That Solves Small Tabular Classification Problems in a Second** (ICLR 2023) - [Paper](https://arxiv.org/abs/2207.01848) | [Code](https://github.com/automl/TabPFN)  
   Prior-Data Fitted Network using in-context learning for instant tabular classification.
 
+- **Unlocking the Full Potential of Data Science Requires Tabular Foundation Models, Agents, and Humans** (NeurIPS 2025 Position) - [Paper](https://openreview.net/forum?id=aXMPvmBAm5)  
+  Position paper on collaborative systems integrating agents, tabular foundation models, and human experts for data science.
+
 ---
 
 ## Datasets & Benchmarks
@@ -151,6 +161,7 @@ Agentic ML refers to autonomous AI systems that can plan, execute, and iterate o
 | Benchmark | Description | Link |
 |-----------|-------------|------|
 | AutoML-Agent Benchmark | 18 diverse datasets across tabular, CV, NLP, time-series, and graph tasks. | [Paper](https://openreview.net/forum?id=p1UBWkOvZm) |
+| DataSciBench | Comprehensive data science benchmark with TFC framework for LLM evaluation. | [Paper](https://arxiv.org/abs/2502.13897) \| [GitHub](https://github.com/THUDM/DataSciBench) |
 | GAIA | General AI Assistants benchmark testing real-world reasoning and tool use. | [Paper](https://arxiv.org/abs/2311.12983) |
 | MLE-bench | Kaggle-based benchmark for ML engineering agents by OpenAI. 75 competitions. | [Paper](https://arxiv.org/abs/2410.07095) \| [GitHub](https://github.com/openai/mle-bench) |
 | MLAgentBench | Benchmark for LLM agents on ML experimentation tasks. | [Paper](https://openreview.net/forum?id=1Fs1LvjYQW) |
