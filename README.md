@@ -129,6 +129,9 @@ Agentic ML refers to autonomous AI systems that can plan, execute, and iterate o
 - **AI-Driven Automation Can Become the Foundation of Next-Era Science of Science Research** (NeurIPS 2025 Position) - [Paper](https://openreview.net/forum?id=u0FB996GIH)  
   Position paper on AI automation for scientific discovery with multi-agent systems to simulate research societies.
 
+- **ClimateAgent: Multi-Agent Orchestration for Complex Climate Data Science Workflows** (TMLR) - [Paper](https://openreview.net/forum?id=XLWvXNumGa)  
+  Multi-agent framework for end-to-end climate data analytics with dynamic API awareness and self-correction.
+
 - **The AI Cosmologist: Agentic System for Automated Data Analysis** (2025) - [Paper](https://arxiv.org/abs/2504.03424)  
   Automates cosmological data analysis from idea generation to research dissemination.
 
